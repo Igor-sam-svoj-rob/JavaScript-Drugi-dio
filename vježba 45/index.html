@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="HandheldFriendly" content="true" />
+    <script
+      src="https://kit.fontawesome.com/81b55cd0cc.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Kalkulator napojnica</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="calculator">
+        <h3>Kalkulator napojnica</h3>
+        <hr />
+        <label>Iznos računa</label>
+        <br />
+        <button><i class="fas fa-euro-sign"></i></button
+        ><input type="number" id="iznos" />
+        <br />
+        <br />
+        <label>Kvaliteta usluge</label>
+        <br />
+        <br />
+        <select id="kvaliteta">
+          <option disabled selected value="0">Izaberi</option>
+          <option value="0.3">30% - Odlično</option>
+          <option value="0.2">20% - Dobro</option>
+          <option value="0.15">15% - OK</option>
+          <option value="0.1">10% - Loše</option>
+          <option value="0.05">5% - Bolje da sam doma ostao</option>
+        </select>
+        <div class="alignCenter">
+          <hr />
+          <button onclick="calculate()" class="btn1">Izračunaj</button>
+        </div>
+      </div>
+      <div id="tip-iznos"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

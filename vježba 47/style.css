@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background: conic-gradient(
+    from 0.5turn at top right,
+    darkseagreen,
+    darkslategray
+  );
+}
+
+.tipke {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.tipka {
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 1rem;
+  padding: 1rem;
+  border: 0.2rem solid black;
+  border-radius: 0.3rem;
+  width: 10rem;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0 0.5rem black;
+  transition: all 0.1s ease;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.zvuk {
+  color: yellow;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.active {
+  transform: scale(1.1);
+  border-color: yellow;
+  box-shadow: 0 0 1rem yellow;
+}

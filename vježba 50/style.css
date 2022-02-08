@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  padding: 1rem;
+}
+
+#info {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#info div {
+  padding: 2rem;
+  background: conic-gradient(
+    from -135deg at -10% center,
+    #ffa500,
+    #ff7715,
+    #ff522a,
+    #ff3f47,
+    #ff5482,
+    #ff69b4
+  );
+  border-radius: 10px;
+  font-size: 1.2rem;
+  color: #fff;
+  text-align: center;
+  width: 20rem;
+}
